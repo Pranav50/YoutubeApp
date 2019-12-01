@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/YoutubeApp/static/css/main.34de6062.chunk.css",
+    "main.js": "/YoutubeApp/static/js/main.f70581cb.chunk.js",
+    "main.js.map": "/YoutubeApp/static/js/main.f70581cb.chunk.js.map",
+    "runtime-main.js": "/YoutubeApp/static/js/runtime-main.beba5ddf.js",
+    "runtime-main.js.map": "/YoutubeApp/static/js/runtime-main.beba5ddf.js.map",
+    "static/css/2.9c33f004.chunk.css": "/YoutubeApp/static/css/2.9c33f004.chunk.css",
+    "static/js/2.414637e7.chunk.js": "/YoutubeApp/static/js/2.414637e7.chunk.js",
+    "static/js/2.414637e7.chunk.js.map": "/YoutubeApp/static/js/2.414637e7.chunk.js.map",
+    "index.html": "/YoutubeApp/index.html",
+    "precache-manifest.cea8e8d9d6d9a7bce579530845282bf0.js": "/YoutubeApp/precache-manifest.cea8e8d9d6d9a7bce579530845282bf0.js",
+    "service-worker.js": "/YoutubeApp/service-worker.js",
+    "static/css/2.9c33f004.chunk.css.map": "/YoutubeApp/static/css/2.9c33f004.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/YoutubeApp/static/css/main.34de6062.chunk.css.map",
+    "static/media/mdb.css": "/YoutubeApp/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/YoutubeApp/static/media/fa-solid-900.f14c3b2f.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.beba5ddf.js",
+    "static/css/2.9c33f004.chunk.css",
+    "static/js/2.414637e7.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.f70581cb.chunk.js"
+  ]
+}
