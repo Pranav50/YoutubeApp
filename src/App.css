@@ -20,3 +20,42 @@
 .App-link {
   color: #09d3ac;
 }
+
+.video-list {
+  display: flex; 
+  align-items: center;
+  cursor: pointer;
+  height: 99%;
+  width: 99%;
+}
+
+.video-list img {
+  width: 99%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .video-list {
+    display: flex; 
+  align-items: center;
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+  }
+
+  .video-list img {
+    width: 470px;
+    height: 320px;
+  }
+
+  .grid-list {
+    display: table;
+    width: auto;
+  }
+
+  .video-image {
+    width: 155%;
+  }
+
+}

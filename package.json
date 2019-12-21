@@ -1,10 +1,12 @@
 {
+  "homepage": "http://Pranav50.github.io/YoutubeApp",
   "name": "react-youtube-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.5.1",
     "axios": "^0.19.0",
+    "material-ui-image": "^3.2.2",
     "mdbreact": "4.15.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -31,8 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
   }
 }

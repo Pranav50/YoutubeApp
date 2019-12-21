@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Grid} from '@material-ui/core'
 import Youtube from './api/Youtube'
 import {VideoList, SearchBar, VideoDetails} from './components'
+import './App.css'
 
 export class App extends Component {
   state = {
@@ -10,7 +11,7 @@ export class App extends Component {
   }
 
   componentDidMount() {
-    this.handleSubmit('pdf generation')
+    this.handleSubmit('buggati car')
   }
 
   onVideoSelect = (video) => {
@@ -21,7 +22,7 @@ export class App extends Component {
     const response = await Youtube.get('search', {
       params: {
         part: 'snippet',
-        maxResults: 5,
+        maxResults: 6,
         key: process.env.REACT_APP_YOUTUBE_KEY,
         q: searchTerm
     }
@@ -44,13 +45,13 @@ export class App extends Component {
               {/* Video Details */}
               <VideoDetails video={selectedVideo}/>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4} className="grid-list">
               {/* Video List */}
               <VideoList videos={videos} onVideoSelect={this.onVideoSelect}/>
             </Grid>
           </Grid>
         </Grid>
-      </Grid>
+      </Grid> 
     )
   }
 }
